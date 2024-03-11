@@ -11,7 +11,7 @@ function getStopsForRouteAndDirection(route, direction) {
     
   
     const stops = getStopsForRouteAndDirection(route, direction);
-    
+     
     let stopCount = 1;
     stops.forEach(stop => {
         const stopName = getStopName(stop.stop);
